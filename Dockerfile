@@ -5,7 +5,7 @@ ENV TAILSCALE_HOSTNAME="Render-server-by-surya"
 ENV TAILSCALE_ADDITIONAL_ARGS=""
 
 # Install required tools INCLUDING PYTHON for web server
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --fix-missing \
     nano \
     neofetch \
     ca-certificates \
