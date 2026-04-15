@@ -7,6 +7,8 @@ ENV TAILSCALE_ADDITIONAL_ARGS=""
 # Install required tools INCLUDING PYTHON for web server
 RUN apt-get update && apt-get install -y --fix-missing \
     nano \
+    git \
+    tmux \
     neofetch \
     ca-certificates \
     curl \
