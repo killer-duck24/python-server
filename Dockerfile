@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y --fix-missing \
     nano \
     git \
     tmux \
+    procps \
+    python3-pip \
     neofetch \
     ca-certificates \
     curl \
